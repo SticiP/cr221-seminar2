@@ -8,6 +8,10 @@ public class Main {
         System.out.println(jet);
         jet.simulateMeteoEvent(MeteoEvent.RAIN);
         System.out.println(jet);
+        jet.simulateMeteoEvent(MeteoEvent.SNOW);
+        System.out.println(jet);
+        jet.simulateMeteoEvent(MeteoEvent.FOG);
+        System.out.println(jet);
 
 
     }

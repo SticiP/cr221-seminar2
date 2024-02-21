@@ -1,5 +1,7 @@
 public enum MeteoEvent {
     SUN,
-    RAIN
+    RAIN,
+    SNOW,
+    FOG
 
 }
