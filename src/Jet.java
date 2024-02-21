@@ -6,9 +6,13 @@ public class Jet {
         this.heigh = heigh;
     }
 
-    public void simulateMeteoEvent() {
-        System.out.println("dimon");
-        heigh = heigh + 5;
+    public void simulateMeteoEvent(MeteoEvent rain) {
+        switch(rain){
+            case SUN -> {
+                heigh = heigh + 5;
+            }
+            case RAIN -> heigh = heigh - 5;
+        }
     }
 
     @Override

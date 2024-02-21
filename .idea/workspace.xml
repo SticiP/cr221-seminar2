@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6aff6e2-24e8-4e64-884e-cee694357293" name="Changes" comment="&#10;Add simulate method">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a6aff6e2-24e8-4e64-884e-cee694357293" name="Changes" comment="add heght coordinate">
+      <change afterPath="$PROJECT_DIR$/src/MeteoEvent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Jet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Jet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -18,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -59,7 +60,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708502742270</updated>
-      <workItem from="1708502743611" duration="1557000" />
+      <workItem from="1708502743611" duration="2467000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial files">
       <option name="closed" value="true" />
@@ -85,7 +86,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708503744133</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add heght coordinate">
+      <option name="closed" value="true" />
+      <created>1708504404553</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708504404553</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,14 +104,15 @@
     <MESSAGE value="Add initial files" />
     <MESSAGE value="Add class Jet" />
     <MESSAGE value="&#10;Add simulate method" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;Add simulate method" />
+    <MESSAGE value="add heght coordinate" />
+    <option name="LAST_COMMIT_MESSAGE" value="add heght coordinate" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>10</line>
+          <line>12</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
