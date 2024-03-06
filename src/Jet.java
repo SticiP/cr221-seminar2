@@ -1,10 +1,12 @@
 public class Jet {
+    private  String name;
     private  int heigh;
     private int latitude;
     private int longitude;
 
-    public Jet(int heigh,
+    public Jet(String name, int heigh,
                int latitude, int longitude) {
+        this.name = name;
         this.heigh = heigh;
         this.latitude = latitude;
         this.longitude = longitude;
@@ -33,5 +35,9 @@ public class Jet {
                 ", latitude=" + latitude +
                 ", longitude=" + longitude +
                 '}';
+    }
+
+    public String getName() {
+        return name;
     }
 }
