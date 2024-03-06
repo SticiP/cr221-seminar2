@@ -13,8 +13,12 @@ public class Main {
         jet.simulateMeteoEvent(MeteoEvent.FOG);
         System.out.println(jet);
 
+        Jet jet2 = new Jet("Eleonora", 75, 125, 65);
+
         Tower tower = new Tower();
         tower.register(jet);
+
+        tower.register(jet2);
 
 
     }

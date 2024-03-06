@@ -1,8 +1,14 @@
 public class Jet {
+    private static int nextId = 0;
     private  String name;
     private  int heigh;
     private int latitude;
     private int longitude;
+    private int id;
+
+    private static int getNextId() {
+        return nextId++;
+    }
 
     public Jet(String name, int heigh,
                int latitude, int longitude) {
@@ -10,6 +16,7 @@ public class Jet {
         this.heigh = heigh;
         this.latitude = latitude;
         this.longitude = longitude;
+        this.id = getNextId();
     }
 
     public void simulateMeteoEvent(MeteoEvent rain) {
@@ -39,5 +46,9 @@ public class Jet {
 
     public String getName() {
         return name;
+    }
+
+    public int getId() {
+        return id;
     }
 }
