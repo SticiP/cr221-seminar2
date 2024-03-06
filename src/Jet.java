@@ -24,13 +24,20 @@ public class Jet {
             case SUN -> {
                 heigh = heigh + 2;
                 latitude = latitude + 10;
+                
+                System.out.println("Jet#"+ name + "(" + id +"): " + "It's always sunny in Philadelphia");
             }
-            case RAIN -> latitude = latitude + 5;
+            case RAIN ->{
+                 latitude = latitude + 5;
+                System.out.println("Jet#"+ name + "(" + id +"): " +"It's always rainy in Vietnam");
+                }
             case SNOW -> {
                 heigh = heigh - 7;
+                System.out.println("Jet#"+ name + "(" + id +"): " +"It's always snowy in Alaska");
             }
             case FOG -> {
                 latitude = latitude + 1;
+                System.out.println("Jet#"+ name + "(" + id +"): " +"It's always foggy in Canada");
             }
         }
     }

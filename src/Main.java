@@ -3,22 +3,16 @@
 public class Main {
     public static void main(String[] args) {
         Jet jet = new Jet("Boing",50,100,100);
-        System.out.println(jet);
-        jet.simulateMeteoEvent(MeteoEvent.SUN);
-        System.out.println(jet);
-        jet.simulateMeteoEvent(MeteoEvent.RAIN);
-        System.out.println(jet);
-        jet.simulateMeteoEvent(MeteoEvent.SNOW);
-        System.out.println(jet);
-        jet.simulateMeteoEvent(MeteoEvent.FOG);
-        System.out.println(jet);
-
+       
         Jet jet2 = new Jet("Eleonora", 75, 125, 65);
 
         Tower tower = new Tower();
         tower.register(jet);
 
         tower.register(jet2);
+        tower.simulate();
+
+
 
 
     }
