@@ -13,6 +13,9 @@ public class Main {
         jet.simulateMeteoEvent(MeteoEvent.FOG);
         System.out.println(jet);
 
+        Tower tower = new Tower();
+        tower.register(jet);
+
 
     }
 }

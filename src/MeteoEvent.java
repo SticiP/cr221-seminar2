@@ -3,5 +3,5 @@ public enum MeteoEvent {
     RAIN,
     SNOW,
     FOG
-
 }
+ 
