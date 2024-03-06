@@ -1,4 +1,4 @@
-public class Jet {
+public class Jet implements aircraft {
     private static int nextId = 0;
     private  String name;
     private  int heigh;
@@ -19,6 +19,7 @@ public class Jet {
         this.id = getNextId();
     }
 
+    @Override
     public void simulateMeteoEvent(MeteoEvent rain) {
         switch(rain){
             case SUN -> {
@@ -51,10 +52,12 @@ public class Jet {
                 '}';
     }
 
+    @Override
     public String getName() {
         return name;
     }
 
+    @Override
     public int getId() {
         return id;
     }
